@@ -39,7 +39,7 @@ w0=-1
 wa=0
 
 # variables
-var_exp=[r'$\Omega_\mathrm{m,0}$',r'$\Omega_\mathrm{b,0}$',r'$h$',r'$n_\mathrm{s}$',r'$\sigma_8$',r'$\sum m_{\nu,\mathrm{eff}}\;[\mathrm{eV}]$',r'$w_0$',r'$w_a$']
+var_exp=[r'$\Omega_\mathrm{m,0}$',r'$\Omega_\mathrm{b,0}$',r'$h$',r'$n_\mathrm{s}$',r'$\sigma_8$',r'$\sum m_{\nu}\;[\mathrm{eV}]$',r'$w_0$',r'$w_a$']
 var_num=len(var_name)
 cosmo_value=[omega_m0,omega_b0,h,n_s,sigma_8,m_nu,w0,wa]
 cosmo_num=len(cosmo_value)
