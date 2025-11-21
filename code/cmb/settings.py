@@ -6,21 +6,21 @@ sns.set_context("notebook")
 sns.set_palette("husl")
 
 # basic settings
-f_sky = 0.09
-ell_min = 41
-ell_max = 1350
-label = "LiteBIRD"
-FWHM = np.array([31]) / 60 * np.pi / 180  # rad, 150 GHz
-sigma2_T = (np.array([4.1]) / 60 * np.pi / 180) ** 2  # (muK rad)^2
-sigma2_P = (np.array([5.8]) / 60 * np.pi / 180) ** 2  # (muK rad)^2
-
-# f_sky = 0.61
+# f_sky = 0.09
 # ell_min = 41
-# ell_max = 3000
-# label = "SO"
-# FWHM = np.array([7.4, 5.1, 2.2, 1.4, 1.0, 0.9]) / 60 * np.pi / 180  # rad, 150 GHz
-# sigma2_T = (np.array([61, 30, 5.3, 6.6, 15, 35]) / 60 * np.pi / 180) ** 2  # (muK rad)^2
-# sigma2_P = 2 * sigma2_T  # (muK rad)^2
+# ell_max = 1350
+# label = "LiteBIRD"
+# FWHM = np.array([31]) / 60 * np.pi / 180  # rad, 150 GHz
+# sigma2_T = (np.array([4.1]) / 60 * np.pi / 180) ** 2  # (muK rad)^2
+# sigma2_P = (np.array([5.8]) / 60 * np.pi / 180) ** 2  # (muK rad)^2
+
+f_sky = 0.61
+ell_min = 41
+ell_max = 3000
+label = "SO"
+FWHM = np.array([2.2, 1.4]) / 60 * np.pi / 180  # rad, 93/145 GHz
+sigma2_T = (np.array([5.3, 6.6]) / 60 * np.pi / 180) ** 2  # (muK rad)^2
+sigma2_P = 2 * sigma2_T  # (muK rad)^2
 k_max_transfer = 10  # 1/Mpc
 
 # accuracy settings
